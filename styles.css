@@ -1,0 +1,264 @@
+/* Reset default styles */
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Body styles */
+body { font-family: Arial, sans-serif;
+ background-color: #f8f8f8;
+}
+
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+h1 {
+ font-size: 28px;
+ margin-bottom: 20px;
+ text-align: center;
+}
+
+h2 {
+ font-size: 24px;
+ margin-bottom: 10px;
+}
+
+ul {
+ list-style-type: none;
+}
+
+a {
+ text-decoration: none;
+ color: #000;
+}
+
+/* Header styles */
+header {
+ background-color: #fff;
+ padding: 20px;
+}
+
+.logo {
+ margin-right: 10px;
+}
+.logo img {
+ width: 40px;
+ height: 40px;
+}
+
+nav ul {
+ display: flex;
+ justify-content: center;
+}
+
+nav ul li {
+ margin-right: 20px;
+}
+
+/* Search bar styles */
+.search-bar {
+ display: flex;
+ margin-bottom: 20px;
+}
+
+.search-bar input[type='text'] {
+ flex: 1;
+ padding: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ margin-right: 10px;
+}
+.search-bar button {
+ padding: 10px 20px;
+ background-color: #3366cc;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+
+/* Categories styles */
+.categories {
+ margin-bottom: 20px;
+}
+.categories ul {
+ display: flex;
+ justify-content: space-between;
+}
+.categories ul li {
+ flex: 1;
+ text-align: center;
+ padding: 10px;
+ background-color: #f0f0f0;
+ border-radius: 5px;
+}
+.categories  .view-more {
+ display: block;
+ text-align: center;
+ margin-top: 10px;
+ color: #3366cc;
+}
+
+/* Featured properties styles */
+
+.featured-properties {
+ margin-bottom: 20px;
+}
+
+.featured-properties  .property {
+ margin-bottom: 20px;
+}
+
+.featured-properties img {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+}
+
+.featured-properties h2 {
+ margin-top: 10px;
+} 
+
+.featured-properties p {
+ margin-bottom: 10px;
+}
+
+.featured-properties  .view-details {
+ display: block;
+ text-align: cnter;
+ margin-top: 10px;
+ color: #3366cc;
+}
+/* Popular destinations styles */
+.popular-destinations {
+ margin-bottom: 20px;
+}
+
+.popular-destinations ul li {
+ margin-bottom: 10px;
+}
+
+.poplar-destinations img {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+}
+
+.popular-destinations h2 {
+ margin-top: 10px;
+}
+.popular-destinations p {
+ margin-bottom: 10px;
+}
+
+/* Recently viewed styles */
+.recently-viewed {
+ margin-bottom: 20px;
+}
+
+.recently-viewed  .property {
+ margin-bottom: 20px;
+}
+
+.recently-viewed img {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+}
+
+.recently-viewed h2 {
+ margin-top: 10px;
+}
+
+.recently-viewed p {
+ margin-bottom: 10px;
+}
+
+/* Saved properties styles */
+.saved-properties  {
+ margin-bottom: 20px;
+}
+
+.saved-properties .property {
+ margin-bottom: 20px;
+}
+
+.saved-properties img {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+}
+
+.saved-properties h2 {
+ margin-top: 10px;
+}
+
+.saved-properties p {
+ margin-bottom: 10px;
+}
+
+/* Promotions and special offers */
+.promotions {
+ margin-bottom: 20px;
+}
+
+.promotions  .offer {
+ margin-bottom: 20px;
+}
+
+.promotions img {
+ width: 100%;
+ height: auto;
+ border-radius: 5px;
+}
+
+.promotions h2 {
+ margin-top: 10px;
+}
+
+.promotions p {
+ margin-bottom: 10px;
+}
+
+.promotions .view-details {
+ display: block;
+ text-align: center;
+ margin-top: 10px;
+ color: #3366cc;
+}
+
+/* Testimonials styles */
+.testmonials {
+ margin-bottom: 20px;
+}
+.testmonials  .testmonial {
+ margin-bottom: 20px;
+ padding: 20px;
+ background-color: #f0f0f0;
+ border-radius: 5px;
+}
+.testmonials img {
+ width: 100%;
+ height: auto;
+ border-radius: 50;
+}
+
+.testmonials .testmonial p {
+ margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer{
+ background-color: #333;
+ padding: 20px;
+ color: #fff;
+ text-align: center;
+}
+
+footer p {
+ margin-bottom: 10px;
+}
